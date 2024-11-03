@@ -15,6 +15,5 @@ class ConcreteClientTest {
         concreteClient.execute();
     }
 
-    @Test
 
 }
