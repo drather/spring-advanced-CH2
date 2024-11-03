@@ -1,8 +1,6 @@
 package hello.proxy.app.v1;
 
-import org.springframework.aop.ThrowsAdvice;
-
-public class OrderRepositoryImpl implements OrderRepositoryV1 {
+public class OrderRepositoryV1Impl implements OrderRepositoryV1 {
     @Override
     public void save(String itemId) {
         if (itemId.equals("ex")) {
