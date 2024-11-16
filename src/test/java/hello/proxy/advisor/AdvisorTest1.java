@@ -16,7 +16,7 @@ import org.springframework.aop.support.NameMatchMethodPointcut;
 import java.lang.reflect.Method;
 
 @Slf4j
-public class advisorTest1 {
+public class AdvisorTest1 {
 
     @Test
     void advisorTest1() {
